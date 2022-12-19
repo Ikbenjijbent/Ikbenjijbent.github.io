@@ -294,7 +294,7 @@ header .header-cases{
 	text-shadow:1px 1px 10px rgb(10, 10, 10); /*shadow: thickness left then deown, blur (8)*/
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-@media only screen and (min-width: 1000px) {  /*TEXT OVER BANNER*/
+@media only screen and (min-width: 2000px) {  /*TEXT OVER BANNER*/
 	.wrapper {  /*wrapper around all 1:22 in danikrossing youtube*/
 		width: 1000px;  /*limits width over 1000px*/ /*//////////////////*/
 		margin: 0 auto;
