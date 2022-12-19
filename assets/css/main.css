@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -683,3 +684,690 @@ p1  {
 	}
 	}
 	*/
+=======
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:rgb(114, 114, 13);
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html reset stylesheet above*/
+/*REDO*/
+
+*{text-decoration: none;
+}
+body{
+	background-color:rgb(80, 83, 80);
+}
+main{
+	padding-top: 175px; /*///++++++++++///*/
+}
+body a:hover {
+	color: rgb(6, 173, 250);
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*---------------------------------------------------------------------------------------*/
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	background-color:rgb(209, 212, 209);
+	width: 100%;
+	height: 175px; /*change height of header background used in index banner calc() below*//*///++++++++++///*/
+}
+header .header-brand {  /*see Index header is used there               TOPMOST WORD FIRST STRING*/
+	font-family: Verdana;
+	font-size: 36px;
+	font-weight: 1000;
+	color: rgb(36, 44, 38);
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*---------------------------------------------------------------------------------------*/
+header nav ul {  /*see Index header nav ul is used there                  LIST SECOND STRING*/
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+}
+header nav ul li {
+	display: inline-block;
+	float: left;  /*was left, now center looks strange at iphone12*/
+	list-style: none;
+	padding: 0 20px; /*space between list*/	
+}
+header nav ul li a {
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: 550;
+	color: rgb(53, 61, 54);
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+header .header-cases{
+	display:none;/*turns off cases*/
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 1000px) { /*adjusts (below) website to fit pc or screens 1000px*/
+	header .header-brand {
+		margin: 50px 0px;  /*adjusts position of title and line*//*///++++++++++///*/
+		text-align: left;
+		line-height: 90px;
+		padding: 0 20px 0 40px; /*t r b l*/
+		border-right: 9px solid #111; /*creates a line by the title but it is on the right*/
+		float: left; /*makes the line float to the left */
+	}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	header nav ul {  /*chnages menu at middle top for pc/over 1000px                  LIST SECOND STRING*/
+		margin: 70px 0px 0px 20px;  /*chnages spacing around text t r b l*/
+		float: left;
+	}
+	header nav ul li a {
+		line-height: 50px;
+	}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	header .header-cases{  /*this is to style cases link*/
+		display: block;/*turns on cases*/
+		font-family: Verdana;
+		font-size: 20px;
+		font-weight: 500;
+		color: rgb(177, 177, 177);
+		line-height: 70px;
+		border: 1px solid rgb(185, 185, 185);
+		float: right;
+		margin-right: 40px;
+		margin-top: 50px;
+		padding: 0 22px;
+	}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*INDEX sets the photo and text on it,  below*/
+
+.index-banner {
+	width: 100%;
+	height: calc(100vh-300px); /*sets the banner height equal to view height less the banner height eg 300px*/
+	color: rgb(68, 26, 18);   /* the color under the banner picture not seen */
+	background-image: url('../css/img/woodBox04.jpeg'); /*../ is key Dave Grey CSS youtube redirect to the photos in css and not in html
+	background-image: url('../css/img/botGB.png'); /*../ is key Dave Grey CSS youtube*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display:table;
+}
+/*larger h2 text over banner picture*/
+.index-banner h2{
+	font-family: Verdana;
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 900;
+	color: rgb(255, 251, 251);
+	text-align: center;
+	text-shadow:2px 2px 8px rgb(110, 110, 110); /*shadow: thickness left then deown, blur (8)*/
+}
+.vertical-center{  /*centers h1 text*/
+	display: table-cell;
+	vertical-align: middle;
+}
+/*smaller h1 text over banner picture*/
+.index-banner h1{
+	font-family: Verdana;
+	font-size: 28px;
+	font-weight: 100;
+	line-height: 40px;
+	color: rgb(233, 233, 233);
+	text-align: center;
+	text-shadow:1px 1px 10px rgb(61, 61, 61); /*shadow: thickness left then deown, blur (8)*/
+}
+
+/*below is the style for the type below the first banner picture Nintendo Sega, etc - the text in boxes*/
+.index-links div{  /*BOXES AROUND TEXT UNDER BANNER*/
+	margin: 16px 16px 0;
+	width: calc(100% - 32px);
+	height: 100px;
+	background-color: rgb(131, 131, 131); /*background color under this square of color, is from above under body*/
+}
+.index-links div h3{  /*TEXT IN BOXES UNDER BANNER*/
+	font-family: Verdana;
+	font-size: 28px;
+	font-weight: 100;
+	line-height: 100px;  /*corresponds to height (100) in index-links div above*/
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-shadow:1px 1px 10px rgb(10, 10, 10); /*shadow: thickness left then deown, blur (8)*/
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 1000px) {  /*TEXT OVER BANNER*/
+	.wrapper {  /*wrapper around all 1:22 in danikrossing youtube*/
+		width: 1000px;  /*limits width over 1000px*/ /*//////////////////*/
+		margin: 0 auto;
+	}
+	.index-banner {	
+		height:450px ; /*sets the banner hgt after 1000px*/
+	}
+	.index-banner h1{
+		display: block;
+		width: 500px; /*limits text length, then starts text on the next line*/
+		margin: 0 auto;
+	}
+	.index-links{
+		overflow: hidden; /*allows "padding" at bottom of boxed text just above footer*/
+	}
+	.index-links div{  /*BOXES AROUND TEXT UNDER BANNER*/
+		margin: 20px 10px 0;
+		height: 230px; 
+		background-color: rgb(91, 92, 91);
+		float:left; /*lines boxes up next to each other*/
+	}
+	.index-boxlink-sq { /*BOXES AROUND TECT UNDER BANNER*/
+		width: calc(25% - 20px) !important;  /*Toverrides other styles with !important*/
+	}
+	.index-boxlink-rec { /*BOXES AROUND TECT UNDER BANNER*/
+		width: calc(50% - 20px) !important;  /*Toverrides other styles with !important*/
+	}
+	.index-links div h3{  /*TEXT IN BOXES UNDER BANNER*/
+		line-height: 230px;  /*centers/positions text in boxes*/
+	}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*FOOTER foot-links-main style controlled by below list at footer nintendo etc on left*/
+footer {
+	width:calc(100% - 80px);
+	padding: 40px 40px;
+	margin-top: 20px;
+	background-color:rgb(53, 54, 53);
+	overflow: hidden; /*to solve floating items no displaying....*/
+}
+footer ul {
+	width: fit-content;
+	float: left;
+	padding-left: 20px;
+}
+footer ul li {
+	display: block;
+	list-style: none;
+}
+footer ul li a {
+	font-family: Verdana;
+	font-size: 20px;
+	color: rgba(185, 189, 186, 0.411);
+	line-height: 30px;
+}
+.foot-links-cases { /*stops display of "ul class foot-links-cases" on index page*/
+	display: none;
+}
+/*set social media icons*/
+.footer-sm {
+	width: 60px;
+	float: right;
+}
+.footer-sm img {
+	width: 100%;
+	padding-bottom: 50px;
+}
+/*set misc items at bottom*/
+.footer-fm {
+	width: fit-content;
+	float: center;
+	padding-left: 20px;
+}
+.footer-fm img {
+	padding-bottom: 50px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 1000px) {  /*   */
+	.foot-links-cases { 
+		display: block;		
+	}
+	footer ul {
+		padding-right: 30px;
+	}
+	footer ul li p {  /*adresses the parapgraph format in index for "title" at footer   */
+		font-family: Verdana;
+		font-size: 20px;
+		color: rgba(48, 233, 11, 0.411);
+		line-height: 30px;
+	}
+
+}
+/*REDO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<!DOCTYPE html>*/
+/*html
+	head*/
+
+	/*body 	 
+		* {
+			margin: 0;
+			padding: 0;
+			background-color: hsl(0, 0%, 0%);
+			font-family: verdana;
+			color: hsl(0, 0%, 75%)	
+		}*/
+
+/** {
+	text-decoration: none; /*removes underline at text*/
+/*}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: hsl(0, 89%, 18%);
+	font-family: verdana;
+	color: hsl(0, 82%, 30%);
+}
+/* for very top header - below*/
+/*header{ 
+	background-color: hsl(0, 0%, 100%);
+	padding-top: 10px;
+	padding-bottom: 0px;/*set the gap between top of photos and bottom of header*/
+/*	width:100%;
+	height:100px;
+}			
+header .header-brand{
+	font-family: verdana;
+	font-size: 48px;
+	font-weight:900;
+	color: hsl(0, 0%, 46%);
+	text-transform:none;/*set to uppercase or lowercase etc */	
+/*	display:block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0; /*for topmost logog */	
+/*} 
+header a:hover {
+	color: rgb(187, 187, 187);
+}
+/* for very top header - above*/
+
+/* for ordered list - below*/
+/*header nav ul {
+	display:block;
+	margin: 0, auto;
+	width: fit-content;
+}
+
+header nav ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	padding: 0 16px; /*spacing of words*/
+/*}
+header nav ul li a {
+	font-family: verdana;
+	font-size: 36px;
+	color: hsl(0, 47%, 62%);
+	font-weight:600;
+}
+
+header nav ul li a:hover {
+	color: rgb(150, 3, 23);
+}
+
+header .header-cases {
+	display: none;
+}
+
+/* INDEX*/
+/*.index-banner {
+	display:block;
+	width: 100%;
+	height: 100vh;  /* 100vh is 100% of view height*/
+/*	background-image:<img class="indexThumbnailLink" 
+	src="images\nintendo\gameBoy\micro\finalFantasyBoxed\IMG_6353.jpeg">
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* for ordered list - above*/
+
+
+/* from PART I */
+/*.wrapper{
+	width: 100%;
+} 
+.indexThumbnailLink {
+	width: 390px;  /*index thumbnail width*/
+	/*background-size: 100%;
+	padding-top: px;  /*space between pictures THIS REPLACED WITH HEADERNAV UL ABOVE  maybe not...?????*/
+/*}
+.img-info{
+	width:100%
+}
+.img-info h2{
+	width:100%;
+	padding: 0px 0px 0px;
+	font-size: 50px;
+	color: rgb(122, 119, 119);
+	line-height: 44px;
+}
+.img-info p{
+	width:100%;
+	padding: 0px 30px 20px;
+	font-size: 16px;
+	color: rgb(122, 119, 119);
+	line-height: 24px;
+}
+/*IPAD AIR code below takes information from above and adds or changes to it*/
+/*@media only screen and (min-width: 820px) {  /*runs only if true this is geared towards ipad*/
+	/*.img-banner{
+		display: block;
+		width: 100%;
+		padding-bottom: 30px;
+	}*/
+	/*.indexThumbnailLink {
+		width: 820px;  /*index thumbnail widtha*/
+		/*padding-top: 30px;  /*space between pictures*/	
+	/*}
+	.wrapper{
+		width: 820px;; /* screwing up ipad air widthh...*/
+		/*margin: 0 auto;  /* saffecting left margin  ipad air widthh...*/
+	/*}
+	.img-info h2{				
+		padding: 20px 0px 0px;
+	}
+	.img-info p{
+		padding: 20px 0px 0px;
+	}
+}
+/*pc code below takes information from above and adds or changes to it*/
+/*@media only screen and (min-width: 1000px) {  /*runs only if true*/
+
+	/*.wrapper{
+		width: 1000px; /* screwing up ipad air widthh...*/
+	/*}
+	.img-info{
+		width:50%;
+		float: right; /* "float" makes elements align horizontally next to each other*/
+	/*}
+	.img-info h2{				
+		padding: 20px 0px 0px 30px;
+	}
+	.img-info p{
+		padding: 20px 0px 0px 30px;
+	}
+	.indexThumbnailLink {
+		padding-top: 0px;  /*space between pictures*/
+		/*width:50%;
+		float: left;
+	/*}
+	
+}
+nav{
+	width: 100%;
+	height: 400px;
+	background-color: 323233;
+}
+ul {
+	margin-left: 0px;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	list-style: none;
+	display: inline-block;
+	line-height:200px;
+}
+ul li a {
+	display:block;
+	text-decoration: none;
+	font-size: 2vw;
+	color: hsl(0, 0%, 91%);
+	font-family: verdana;
+	padding: 0 2vw;/*for space between words*/
+/*}
+ul li a:hover {
+	color: rgb(120, 18, 204);
+}
+
+/* from PART I */
+
+
+			/*h1 {
+	font-size: 2.5vw;
+}
+h2 {
+	font-size: 1.75vw;
+}
+h3 {
+	font-size: 1vw;
+}		
+
+div{
+	width:100%;
+	height:auto;
+}*/
+/*.black{
+	width:100%;
+	height:auto;
+	background-color: hsl(198, 92%, 29%);
+}
+/*for header links*/
+/** {
+	margin: 0;
+	Padding: 0;
+}*/
+
+/*for header links*/
+/*
+h3 {
+	color: rgb(159, 161, 163);
+	font-family: verdana;
+	font-size: 300%;
+}
+h4 {
+	color: rgb(47, 47, 48);
+	font-family: verdana;
+	font-size: 2vw;
+}		
+
+p  {
+	color:rgb(159, 161, 163);
+	font-family: verdana;
+	font-size: 150%;
+}
+
+p1  {
+	color:rgb(159, 161, 163);
+	font-family: verdana;
+	font-size: 150%;
+	border: 2px solid powderblue;
+	padding: 10px;
+	margin: 50px;
+}
+
+				/*
+	.hero{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(28, 6, 128, 0.3),rgba(206, 14, 132, 0.4));
+	position: relative;
+	padding:flex;
+	align-items:center;
+	justify-content: center;
+	}
+	.back-video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	}
+	@media (min-aspect-ration: 16/9){
+	.back-video{
+		width:100%;
+		height:auto;
+	}
+	}
+	@media (max-aspect-ration: 16/9){
+	.back-video{
+		width:auto;
+		height:100%;
+	}
+	}
+	*/
+>>>>>>> 349388b267bc39b073e29a007c606549d2587b2a
