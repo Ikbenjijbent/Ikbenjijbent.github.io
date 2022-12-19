@@ -152,7 +152,7 @@ input, select {
 *{text-decoration: none;
 }
 body{
-	background-color:rgb(80, 83, 80);
+	background-color:rgb(23, 194, 23);
 }
 main{
 	padding-top: 175px; /*///++++++++++///*/
@@ -230,7 +230,7 @@ header .header-cases{
 		font-weight: 500;
 		color: rgb(177, 177, 177);
 		line-height: 70px;
-		border: 1px solid rgb(185, 185, 185);
+		border: 1px solid rgb(182, 26, 26);
 		float: right;
 		margin-right: 40px;
 		margin-top: 50px;
